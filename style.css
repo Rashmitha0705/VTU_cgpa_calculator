@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:white;
+    width:100%;
+    height: 100vh;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    animation:anim 1s linear infinite;
+}
+
+@keyframes anim {
+     0%,100%{
+         transform:scale(1);
+             }
+     50%{
+         transform: scale(1.1);
+     }
+}
+
+
+#btn{
+    top :50%;
+    left:50%;
+    mask-position: right;
+    text-align: center;
+    font-family: cursive;
+     font-size: medium;
+     
+}
+#box{
+    position: absolute;
+    top :50%;
+    left :50%;
+    transform: translate(-50%,-50%);
+    width:  800px;
+    height: 550px;
+    background-color:darkcyan;
+    border-radius: 10px;
+}
+
+#box form input{
+    display: inline-block;
+    width:30%;
+    height:50px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    color: white;
+    border-bottom :1px solid white;
+    margin:20px ;
+}
+::placeholder{
+    color:rgba(255,255,255,0.466);
+
+}
+
+#box button:hover()
+{
+    
+    background-color: #222;
+    color: azure;
+    cursor: pointer;
+   
+
+}
+#text{
+    color:azure;
+    text-align: center;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sty{
+
+    color:azure;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#bt{
+    width:20%;
+    height:50px;
+    
+}
+
+#per{
+    width:20%;
+    height:40px;
+    
+}
+
+img{
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
